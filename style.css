@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.sosial{
+    padding: 20px 0;
+    background-color: teal;
+}
+
+.sosial ul li{ 
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 80px;
+}
+
+header{
+
+}
+
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: black;
+    font-size: 40px;
+    font-family: unset;
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover{
+    background-color: teal;
+    color: #fff;
+}
+
+.active{
+    background-color: teal;
+    color: #fff;
+}
+
+.banner{
+    width: 97%;
+    height: 60vh;
+    background-image: url(../no++/lance.png);
+    background-size: contain;
+    background-position: 100%;
+    border-radius: 0px;
+    position: fixed;
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2{
+    color: #fff;
+    z-index: 1;
+    padding: 30px 45px;
+    border: 3px solid #fff;
+}
+
+section{
+    padding: 20px;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.about p{
+    color: #666;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.contant{
+    background-color: red;
+}
+
+.babi h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    padding: 50px;
+    margin-top: -20px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 28px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.kanan{
+    display: flex;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.anime p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sekolah{
+    padding: 20px 0;
+    background-color: teal;
+}
+
+.sekolah ul li{ 
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.anime p{
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+
+
+ 
+
+
+
